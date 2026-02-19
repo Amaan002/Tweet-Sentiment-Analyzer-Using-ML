@@ -32,6 +32,7 @@ A Logistic Regression classifier is trained on labeled tweet data to learn senti
 The trained model predicts sentiment for new tweets. Example: -
 
 "I love this product!"        → Positive
+
 "This service was terrible."  → Negative
 
 ## Model Performance:
@@ -39,8 +40,11 @@ The trained model predicts sentiment for new tweets. Example: -
 The model was evaluated on a separate test dataset:
 
 **Accuracy:** 89.4%
+
 **Precision:** 88.7%
+
 **Recall:** 90.1%
+
 **F1 Score:** 89.3%
 
 ## Technologies Used:
