@@ -23,11 +23,11 @@ This ensures that only meaningful textual information is used for analysis.
 
 The cleaned text is transformed into numerical vectors using TF-IDF (Term Frequency–Inverse Document Frequency). This technique captures the importance of words within tweets and improves model performance.
 
-### 3. Model Training
+### 3. Model Training -
 
 A Logistic Regression classifier is trained on labeled tweet data to learn sentiment patterns.
 
-### 4. Prediction
+### 4. Model Predictions -
 
 The trained model predicts sentiment for new tweets. Example: -
 
