@@ -13,21 +13,21 @@ This project implements a machine learning–based sentiment analysis system tha
 6. Easy-to-use prediction pipeline
 
 ## Project Workflow:
-1. ### Text Preprocessing -
+### 1. Text Preprocessing -
 
 Tweets are cleaned by: Removing URLs, Removing mentions (@username), Removing hashtags (#topic), Converting text to lowercase, Removing special characters and extra spaces
 
 This ensures that only meaningful textual information is used for analysis.
 
-2. ### Feature Engineering -
+### 2. Feature Engineering -
 
 The cleaned text is transformed into numerical vectors using TF-IDF (Term Frequency–Inverse Document Frequency). This technique captures the importance of words within tweets and improves model performance.
 
-3. ### Model Training
+### 3. Model Training
 
 A Logistic Regression classifier is trained on labeled tweet data to learn sentiment patterns.
 
-4. ### Prediction
+### 4. Prediction
 
 The trained model predicts sentiment for new tweets. Example: -
 
